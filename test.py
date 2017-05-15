@@ -22,7 +22,8 @@ forcas = [forca1]
 
 estrut1 = eztrut.Eztrut(viga1, apoios, forcas)
 
-# Verificar a viga
-# estrut1.mostrar_figura(
+# Mostrar uma figura  da viga com os apoios e forcas
+estrut1.plotagem_apoios()
+estrut1.mostrar_figura()
 
 estrut1.estaticidade()
